@@ -488,10 +488,10 @@ async def about_handler(c: Client, m: Message):
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Main Channel", url="https://t.me/HDHUB4NET")],
+                [InlineKeyboardButton("Main Channel", url="https://t.me/TheToonGru")],
                 [
                     InlineKeyboardButton(
-                        "Update Channel", url="https://t.me/TheToonGru"
+                        "Update Channel", url="https://t.me/RcRips"
                     ),
                     InlineKeyboardButton(
                         "Developer", url=f"https://t.me/{Config.OWNER_USERNAME}"
